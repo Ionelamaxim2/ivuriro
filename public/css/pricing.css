@@ -1,0 +1,136 @@
+.pricing-clean2 {
+  background: #fffdfb;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 30px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.main-title2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+
+  position: relative;
+}
+
+.subtitle2 {
+  position: relative;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #000000;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.pricing-list-block2 {
+  background: #f5eee8;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+}
+
+.section-title2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: #3b2f1d;
+  border-left: 4px solid #a4896a;
+  padding-left: 12px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.pricing-list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pricing-item2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #e3dcd3;
+  padding-bottom: 16px;
+}
+
+.details2 h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #3b2f1d;
+  text-align: left;
+}
+
+.details2 p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c5c4b;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.price2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a86c3f;
+  white-space: nowrap;
+}
+
+.free-consult4-section {
+  display: flex;
+  justify-content: center;
+  padding: 80px 30px;
+  margin-top: -90px;
+}
+
+.free-consult4-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e8d4b4;
+  max-width: 700px;
+}
+
+.free-consult4-title {
+  font-size: 24px;
+  color: #5e3e18;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.free-consult4-subtitle {
+  font-size: 16px;
+  color: #7d4f26;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.free-consult4-button {
+  background: linear-gradient(90deg, #7d4f26, #b77e40);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(125, 79, 38, 0.3);
+}
+
+.free-consult4-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(125, 79, 38, 0.4);
+}

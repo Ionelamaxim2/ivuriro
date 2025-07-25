@@ -1,63 +1,230 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ivuriro</title>
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
-  <body>
-    <%- include('partials/header', { title: 'Home | Ivuriro' }) %>
 
-    <section>
-      <h2>Ivuriro</h2>
-      <h1>Refining Your Natural Beauty</h1>
-      <h3>
-        Redefining facial and body contouring with a seamless blend of advanced
-        technology and aesthetic artistry. Whether you're looking for a
-        revitalizing treatment, non-invasive anti-aging solution, or subtle
-        enhancement, our team transforms every visit into a journey toward
-        authentic beauty and well-being
+
+
+<section class="hero">
+  <h2 class="hero__title fade-in">Ivuriro</h2>
+  <h1 class="hero__subtitle fade-in">Refining Your Natural Beauty</h1>
+  <h3 class="fade-in">
+    Redefining facial and body contouring with a seamless blend of advanced
+    technology and aesthetic artistry. Whether you're looking for a revitalizing
+    treatment, non-invasive anti-aging solution, or subtle enhancement, our team
+    transforms every visit into a journey toward authentic beauty and
+    well-being.
+  </h3>
+</section>
+
+<section class="services-section">
+  <div class="services-header">
+    <h2 class="services-title">Discover the Treatments from IVURIRO Clinic</h2>
+    <p class="services-subtitle">
+      You're in the right place – explore the complete details about the
+      procedures that interest you most.
+    </p>
+  </div>
+  <div class="cards-container">
+    <div class="card" id="facial-treatments">
+      <h2 class="card__title" id="facial-treatments">Facial contouring</h2>
+      <h3 class="card__subtitle" id="facial-treatments">
+        Rejuvenate your skin with our advanced facial treatments including
+        Botox, dermal fillers, and skin boosters.
       </h3>
-    </section>
+      <a href="/pricing" class="discover-link">
+        <button class="learn-more">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">Discover</span>
+        </button>
+      </a>
+    </div>
 
-    <section>
-      <div class="card">
-        <h2>1.Facial Treatments</h2>
-        <h3>
-          Rejuvenate your skin with our advanced facial treatments including
-          Botox, dermal fillers, and skin boosters.
-        </h3>
-        <h3>Learn more</h3>
+    <div class="card" id="body-contouring">
+      <h2 class="card__title" id="body-contouring">Body contouring</h2>
+      <h3 class="card__subtitle" id="body-contouring">
+        Rejuvenate your skin with our advanced body contouring treatments
+        including liposuction, tummy tucks, and non-invasive fat reduction.
+      </h3>
+      <a href="/pricing" class="discover-link">
+        <button class="learn-more">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">Discover</span>
+        </button>
+      </a>
+    </div>
+
+    <div class="card" id="personalised-care">
+      <h2 class="card__title" id="personalised-care">Personalised care</h2>
+      <h3 class="card__subtitle" id="personalised-care">
+        Rejuvenate your skin with our advanced personalised care treatments
+        including skin analysis, tailored skincare plans, and ongoing support.
+      </h3>
+      <a href="/pricing" class="discover-link">
+        <button class="learn-more">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">Discover</span>
+        </button>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="testimonials__header">
+    <h1 class="testimonials__title">What Our Clients Say</h1>
+    <h2 class="testimonials__subtitle">
+      Real stories from real people who have experienced the IVURIRO difference
+    </h2>
+  </div>
+  <div class="testimonial-container">
+    <div class="testimonial-card">
+      <img src="/photos/client1.jpg" alt="review" class="client-photo" />
+      <h3 class="client-name">Sarah Johnson</h3>
+      <p class="client-age">Age 34</p>
+      <p class="client-treatment">Botox & Dermal Fillers</p>
+      <div class="stars">★★★★★</div>
+      <p class="client-feedback">
+        "The results exceeded my expectations. The team at ivuriro made me feel
+        comfortable throughout the entire process. My skin looks naturally
+        refreshed and I feel more confident than ever."
+      </p>
+    </div>
+
+    <div class="testimonial-card">
+      <img
+        src="/photos/client2.jpg"
+        alt="review"
+        class="client-photo"
+      />
+      <h3 class="client-name">Emma Rodriguez</h3>
+      <p class="client-age">Age 28</p>
+      <p class="client-treatment">Skin Boosters</p>
+      <div class="stars">★★★★★</div>
+      <p class="client-feedback">
+        "Amazing experience from consultation to follow-up. My skin has never
+        looked better – it's glowing and hydrated. The personalized approach
+        really makes a difference."
+      </p>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="/photos/client3.jpg" alt="review" class="client-photo" />
+      <h3 class="client-name">Lisa Chen</h3>
+      <p class="client-age">Age 42</p>
+      <p class="client-treatment">Body Contouring</p>
+      <div class="stars">★★★★★</div>
+      <p class="client-feedback">
+        "Professional, caring, and incredibly effective. The body contouring
+        treatment helped me achieve the results I wanted without surgery. Highly
+        recommend ivuriro."
+      </p>
+    </div>
+  </div>
+</section>
+<section class="beforeandafter">
+  <div class="beforeandafter-header">
+    <h2 class="beforeandafter-title">
+      Satisfied Patients, Real Experiences and Opinions
+    </h2>
+    <p class="beforeandafter-subtitle">
+      Transparent. Honest. Real. Discover What Our Patients Say.
+    </p>
+  </div>
+  
+
+    
+  </div>
+  <div class="carousel-wrapper">
+    <button class="carousel-btn left" onclick="scrollResults(-1)">←</button>
+
+    <div class="results-grid">
+      <div class="result-card">
+        <div class="result-single">
+          <img src="/photos/buze1.png" alt="acid hialuronic buze" />
+          <span class="label before">Before</span>
+          <span class="label after">After</span>
+        </div>
+        <div class="result-info">
+          <h3>Lip Filler</h3>
+          <p>Visible volume and hydration after injection</p>
+        </div>
       </div>
 
-      <div class="card">
-        <h2>2.Body contouring</h2>
-        <h3>
-          Rejuvenate your skin with our advanced facial treatments including
-          Botox, dermal fillers, and skin boosters.
-        </h3>
-        <h3>Learn more</h3>
+      <div class="result-card">
+        <div class="result-single">
+          <img src="/photos/fund1.png" alt="acid in fese" />
+          <span class="label before">Before</span>
+          <span class="label after">After</span>
+        </div>
+        <div class="result-info">
+          <h3>Buttock Filler</h3>
+          <p>Non-surgical lifting and volumization</p>
+        </div>
       </div>
 
-      <div class="card">
-        <h2>3.Personalised care</h2>
-        <h3>
-          Rejuvenate your skin with our advanced facial treatments including
-          Botox, dermal fillers, and skin boosters.
-        </h3>
-        <h3>Learn more</h3>
+      <div class="result-card">
+        <div class="result-single">
+          <img src="/photos/jawline1.png" alt="reconturare mandibulara" />
+          <span class="label before">Before</span>
+          <span class="label after">After</span>
+        </div>
+        <div class="result-info">
+          <h3>Jawline Filler</h3>
+          <p>Defined jawline contour</p>
+        </div>
       </div>
-    </section>
 
-    <section>
-      <h1>What Our Clients Say</h1>
-      <h2>
-        Real stories from real people who have experienced the MIL-clinique
-        difference
-      </h2>
-    </section>
+      <div class="result-card">
+        <div class="result-single">
+          <img src="/photos/sani1.png" alt="implant mamar" />
+          <span class="label before">Before</span>
+          <span class="label after">After</span>
+        </div>
+        <div class="result-info">
+          <h3>Breast Implant</h3>
+          <p>Improved shape, volume, and symmetry</p>
+        </div>
+      </div>
 
-    <%- include('partials/footer') %>
-  </body>
-</html>
+      <div class="result-card">
+        <div class="result-single">
+          <img src="/photos/bbl1.png" alt="bbl" />
+          <span class="label before">Before</span>
+          <span class="label after">After</span>
+        </div>
+        <div class="result-info">
+          <h3>BBL</h3>
+          <p>Brazilian Butt Lift</p>
+        </div>
+      </div>
+
+      <div class="result-card">
+        <div class="result-single">
+          <img src="/photos/abdomen1.png" alt="tummy tuck" />
+          <span class="label before">Before</span>
+          <span class="label after">After</span>
+        </div>
+        <div class="result-info">
+          <h3>Abdominoplasty</h3>
+          <p>Abdomen shape restoration</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-btn right" onclick="scrollResults(1)">→</button>
+  </div>
+</section>
+
+<div class="book-now" >
+  <a href="#contact" class="book-btn" onclick="event.preventDefault()"> Book now </a>
+</div>
+<div class="mobile-book-now">
+  <button class="mobile-book-button" onclick="location.href='/contact'">Book Now</button>
+</div>
+
+
+<script src="/js/main.js"></script>
+

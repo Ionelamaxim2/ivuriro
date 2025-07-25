@@ -1,0 +1,53 @@
+<div class="gold-gradient-background">
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+  <div class="gold-particle"></div>
+</div>
+
+<section class="pricing-clean2">
+  <h1 class="main-title2">Treatment Pricing</h1>
+  <p class="subtitle2">
+    All prices are starting rates and may vary depending on personalized plans.
+  </p>
+
+  <% prices.forEach(category => { %>
+  <div class="pricing-list-block2">
+    <h2 class="section-title2"><%= category.category %></h2>
+
+    <div class="pricing-list2">
+      <% category.treatments.forEach(treatment => { %>
+      <div class="pricing-item2">
+        <div class="details2">
+          <h3><%= treatment.name %></h3>
+          <p>⏱ Duration: <%= treatment.duration %></p>
+          <p>Lasts: <%= treatment.resultsLast %></p>
+        </div>
+        <div class="price2">from €<%= treatment.price %></div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+  <% }) %>
+</section>
+<section class="free-consult4-section">
+  <div class="free-consult4-box">
+    <h2 class="free-consult4-title">Not sure what to choose?</h2>
+    <p class="free-consult4-subtitle">
+      Schedule a free consultation and receive a personalized plan with exact
+      prices tailored to your needs.
+    </p>
+    <a href="/contact" class="btn-email4">Free Consultation </a>
+  </div>
+</section>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> | IVURIRO</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/pricing.css" />
+    <link rel="stylesheet" href="/css/ourteam.css" />
+    <link rel="stylesheet" href="/css/results.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/32f0f2fe26.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <%- include("partials/header") %>
+
+    <main><%- body %></main>
+
+    <%- include("partials/modals") %> <%- include("partials/footer") %>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>

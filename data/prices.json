@@ -1,0 +1,94 @@
+[
+  {
+    "category": "Facial Contouring",
+    "treatments": [
+      {
+        "name": "Botox",
+        "price": 250,
+        "duration": "30 min",
+        "resultsLast": "3–6 months"
+      },
+      {
+        "name": "Dermal Fillers",
+        "price": 300,
+        "duration": "45 min",
+        "resultsLast": "6–18 months"
+      },
+      {
+        "name": "Skin Boosters",
+        "price": 220,
+        "duration": "40 min",
+        "resultsLast": "6–9 months"
+      }
+    ]
+  },
+  {
+    "category": "Body Contouring",
+    "treatments": [
+      {
+        "name": "Liposuction",
+        "price": 1200,
+        "duration": "2h 30min",
+        "resultsLast": "Permanent with lifestyle maintenance"
+      },
+      {
+        "name": "Tummy Tuck",
+        "price": 2500,
+        "duration": "3h",
+        "resultsLast": "Permanent"
+      },
+      {
+        "name": "Fat Freezing",
+        "price": 900,
+        "duration": "1h",
+        "resultsLast": "6–12 months"
+      }
+    ]
+  },
+  {
+    "category": "Personalised Care",
+    "treatments": [
+      {
+        "name": "Skin Analysis",
+        "price": 100,
+        "duration": "20 min",
+        "resultsLast": "Consultation only"
+      },
+      {
+        "name": "Custom Skincare Plan",
+        "price": 150,
+        "duration": "30 min",
+        "resultsLast": "Based on plan adherence"
+      },
+      {
+        "name": "Ongoing Consultation",
+        "price": 80,
+        "duration": "15 min",
+        "resultsLast": "Varies per session"
+      }
+    ]
+  },
+  {
+    "category": "Surgical Enhancements",
+    "treatments": [
+      {
+        "name": "Breast Implant",
+        "price": 3500,
+        "duration": "3h",
+        "resultsLast": "10–15 years"
+      },
+      {
+        "name": "Brazilian Butt Lift (BBL)",
+        "price": 4000,
+        "duration": "4h",
+        "resultsLast": "Several years with maintenance"
+      },
+      {
+        "name": "Abdominoplasty",
+        "price": 3000,
+        "duration": "3h 30min",
+        "resultsLast": "Permanent with weight stability"
+      }
+    ]
+  }
+]

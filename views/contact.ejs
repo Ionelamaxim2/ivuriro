@@ -1,0 +1,130 @@
+<div class="gold-gradient-background">
+  <% for (let i = 0; i < 15; i++) { %>
+  <div class="gold-particle"></div>
+  <% } %>
+</div>
+
+<section class="contact-container">
+  <h1 class="contact-title">Contact</h1>
+  <p class="contact-subtitle">
+    We’re here to assist you with any inquiries or appointments
+  </p>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-info-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>
+          <h4>Address:</h4>
+          <p>Strada Eleganței 10,<br />București, Romania</p>
+        </div>
+      </div>
+      <div class="contact-info-box">
+        <i class="fa-solid fa-envelope"></i>
+        <div>
+          <h4>Email:</h4>
+          <p>contact@ivuriro.com</p>
+        </div>
+      </div>
+      <div class="contact-info-box">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+          <h4>Phone:</h4>
+          <p>+40 723 456 789</p>
+        </div>
+      </div>
+      <div class="contact-info-box">
+        <i class="fa-solid fa-clock"></i>
+        <div>
+          <h4>Working Hours:</h4>
+          <p>
+            Monday – Friday: 09:00 – 21:00<br />Saturday: 10:00 – 18:00<br />Sunday:
+            Closed
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <form
+      class="contact-form"
+      id="contactForm"
+      action="/send-message"
+      method="POST"
+    >
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="text" name="phone" placeholder="Phone Number" />
+      <textarea
+        name="message"
+        placeholder="Your message..."
+        required
+      ></textarea>
+
+      <div class="form-button-wrapper">
+        <button type="submit" id="sendBtn">Send Message</button>
+
+        <% if (success) { %>
+        <div class="card8" id="successCard">
+          <svg
+            class="wave8"
+            viewBox="0 0 1440 320"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0,256L11.4,240C22.9,224,46,192,69,192C91.4,192,114,224,137,234.7C160,245,183,235,206,213.3C228.6,192,251,160,274,149.3C297.1,139,320,149,343,181.3C365.7,213,389,267,411,282.7C434.3,299,457,277,480,250.7C502.9,224,526,192,549,181.3C571.4,171,594,181,617,208C640,235,663,277,686,256C708.6,235,731,149,754,122.7C777.1,96,800,128,823,165.3C845.7,203,869,245,891,224C914.3,203,937,117,960,112C982.9,107,1006,181,1029,197.3C1051.4,213,1074,171,1097,144C1120,117,1143,107,1166,133.3C1188.6,160,1211,224,1234,218.7C1257.1,213,1280,139,1303,133.3C1325.7,128,1349,192,1371,192C1394.3,192,1417,128,1429,96L1440,64L1440,320L0,320Z"
+              fill-opacity="1"
+            />
+          </svg>
+          <div class="icon-container8">
+            <i class="fa-solid fa-check icon8"></i>
+          </div>
+          <div class="message-text-container8">
+            <p class="message-text8">Message sent!</p>
+            <p class="sub-text8">Thank you for reaching out.</p>
+          </div>
+        </div>
+        <% } %> <% if (error) { %>
+        <div class="card8 error8" id="errorCard">
+          <svg
+            class="wave8"
+            viewBox="0 0 1440 320"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0,256L11.4,240C22.9,224,46,192,69,192C91.4,192,114,224,137,234.7C160,245,183,235,206,213.3C228.6,192,251,160,274,149.3C297.1,139,320,149,343,181.3C365.7,213,389,267,411,282.7C434.3,299,457,277,480,250.7C502.9,224,526,192,549,181.3C571.4,171,594,181,617,208C640,235,663,277,686,256C708.6,235,731,149,754,122.7C777.1,96,800,128,823,165.3C845.7,203,869,245,891,224C914.3,203,937,117,960,112C982.9,107,1006,181,1029,197.3C1051.4,213,1074,171,1097,144C1120,117,1143,107,1166,133.3C1188.6,160,1211,224,1234,218.7C1257.1,213,1280,139,1303,133.3C1325.7,128,1349,192,1371,192C1394.3,192,1417,128,1429,96L1440,64L1440,320L0,320Z"
+              fill-opacity="1"
+            />
+          </svg>
+          <div class="icon-container8">
+            <i class="fa-solid fa-xmark icon8"></i>
+          </div>
+          <div class="message-text-container8">
+            <p class="message-text8">Error</p>
+            <p class="sub-text8"><%= error %></p>
+          </div>
+        </div>
+        <% } %>
+      </div>
+    </form>
+  </div>
+
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.3258!2d26.0963!3d44.4268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff5fcbf398e3%3A0x8c607ae531a364a7!2sBulevardul%20Unirii%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1625316510000!5m2!1sen!2sro"
+      width="100%"
+      height="100%"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+
+  <div class="call-box">
+    <p>
+      <strong>Prefer to call us?</strong> Call us directly for quick
+      appointments:
+    </p>
+    <strong>+40 723 456 789</strong>
+  </div>
+</section>

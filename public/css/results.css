@@ -1,0 +1,354 @@
+.beforeandafter-gallery3 {
+  padding: 80px 20px;
+  background-color: #fdfdfd;
+  text-align: center;
+}
+
+.beforeandafter-title-gallery3 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.beforeandafter-subtitle-gallery3 {
+  position: relative;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #000000;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.filter-buttons-gallery3 {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.filter-btn-gallery3 {
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: #f3e9dc;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.filter-btn-gallery3:hover {
+  background-color: #a77c3b;
+}
+
+.filter-btn-gallery3.active {
+  background-color: #a77c3b;
+  color: white;
+}
+
+.results-grid-gallery3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+}
+
+.result-card-gallery3 {
+  width: 280px;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.result-single-gallery3 {
+  position: relative;
+  height: 220px;
+}
+
+.result-single-gallery3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.result-info-gallery3 {
+  padding: 15px;
+  text-align: left;
+}
+
+.label.before,
+.label.after {
+  position: absolute;
+  top: 12px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: #222;
+}
+
+.label.before {
+  left: 12px;
+}
+
+.label.after {
+  right: 12px;
+}
+.faq4 {
+  background: #fffaf5;
+  padding: 100px 20px 80px;
+  text-align: center;
+}
+
+.faq4 h2 {
+  font-size: 2.7rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.faq4 h2 .orange {
+  color: #c87629;
+}
+
+.faq-subtitle4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #6c5f4b;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+.faq-grid4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto 80px;
+}
+
+.faq-item4 {
+  background: white;
+  border: 1px solid #f0e3d1;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item4:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.faq-question4 {
+  background: none;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3b2f20;
+}
+
+.faq-question4 span {
+  font-size: 24px;
+  color: #c87629;
+  transition: transform 0.3s ease;
+}
+
+.faq-item4.active .faq-question4 span {
+  transform: rotate(45deg);
+}
+
+.faq-answer4 {
+  padding: 0 20px 20px;
+  font-size: 15px;
+  color: #6b5b47;
+  text-align: left;
+  display: none;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.faq-item4.active .faq-answer4 {
+  display: block;
+}
+
+.faq-contact4 {
+  background: #fff;
+  border: 1px solid #f0e3d1;
+  border-radius: 16px;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.06);
+}
+
+.faq-contact4 h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #3b2f20;
+  margin-bottom: 10px;
+}
+
+.faq-contact4 p {
+  color: #7a6a56;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.btn-call4,
+.btn-email4 {
+  padding: 12px 26px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  border: 2px solid #c87629;
+  background: transparent;
+  color: #c87629;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-call4:hover,
+.btn-email4:hover {
+  background: #c87629;
+  color: #fff;
+}
+.faq-section {
+  padding: 60px 20px;
+  background: #fdf6ef;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-title {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #3b2f1d;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-toggle {
+  width: 100%;
+  text-align: left;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 15px;
+  color: #212121;
+  font-weight: 1000;
+  font-size: 17px;
+  position: relative;
+  background: #e8e8e8;
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.faq-toggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  transition: all 250ms;
+}
+
+.faq-toggle:hover {
+  color: #e8e8e8;
+}
+
+.faq-toggle:hover::before {
+  width: 100%;
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px 20px;
+  background-color: #fffaf4;
+  border-left: 4px solid #a4896a;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: #4a392a;
+  font-family: "Open Sans", sans-serif;
+}
+.faq-buttons4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.faq-buttons4 a {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #8b572a;
+  background: #fff;
+  border: 2px solid #8b572a;
+  z-index: 1;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.1);
+  transition: all 250ms;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 200px;
+  justify-content: center;
+}
+
+.faq-buttons4 a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #8b572a;
+  z-index: -1;
+  transition: all 250ms;
+}
+
+.faq-buttons4 a:hover {
+  color: #fff;
+}
+
+.faq-buttons4 a:hover::before {
+  width: 100%;
+}

@@ -1,0 +1,94 @@
+.ourteam4-hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+  background: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ourteam4-title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: lighter;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.ourteam4-subtitle {
+  position: relative;
+
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #000000;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ourteam4-members {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background: #fff;
+}
+
+.member4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+.member4.reverse {
+  flex-direction: row-reverse;
+}
+
+.member4 img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.member4-info {
+  flex: 1;
+}
+.member4-info h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.member4-info .role {
+  color: #a77c3b;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.member4-info .desc {
+  font-style: italic;
+  margin-bottom: 12px;
+}
+.qualifications {
+  background: #f5eee8;
+  padding: 20px;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+.qualifications h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.qualifications ul {
+  padding-left: 20px;
+}
+.qualifications li {
+  list-style: disc;
+  margin-bottom: 6px;
+}
