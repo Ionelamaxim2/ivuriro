@@ -305,16 +305,16 @@ a {
   gap: 60px;
   justify-content: center;
   padding: 40px 20px;
-  background: white;
+  background: rgb(255, 255, 255);
   margin-top: 3rem;
 }
 
 .testimonial-card {
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 20px;
   padding: 30px;
   max-width: 320px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   text-align: left;
   font-family: "Open Sans", sans-serif;
   transition: transform 0.3s ease;
